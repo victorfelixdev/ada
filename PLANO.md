@@ -59,15 +59,8 @@ Aceite: testes com cenários sintéticos e sessões reais; diagnósticos inconcl
 
 Agente: **Astra, alto** para regras e calibração; **Sol, alto** para testes e explicações ao usuário.
 
-### 7. API local para o futuro aplicativo Android
 
-Entregas: contrato versionado para descoberta, catálogo, amostras em tempo real e perfis; autenticação por pareamento, acesso limitado à rede local e desligamento do servidor pelo usuário.
-
-Aceite: cliente de teste recebe métricas e reconecta; conexões não autorizadas são recusadas; o monitoramento local funciona sem telefone; contrato documentado para React Native.
-
-Agente: **Sol, médio** para API; **Astra, alto** para revisão de segurança e modelo de pareamento.
-
-### 8. Instalador, qualidade e lançamento inicial
+### 7. Instalador, qualidade e lançamento inicial
 
 Entregas: pacote instalável e desinstalação, licenças de terceiros, logs locais de diagnóstico, matriz de compatibilidade, documentação básica e testes de instalação limpa, atualização e remoção.
 
@@ -77,6 +70,6 @@ Agente: **Sol, médio** para empacotamento e documentação; **Luna, baixo** par
 
 ## Ordem de execução
 
-Concluir a etapa 1 antes de fixar a arquitetura de overlay e coleta. Etapas 2 e 3 podem avançar em paralelo depois dos contratos; o editor depende do catálogo de métricas, e o overlay reutiliza os layouts do editor. A API local reutiliza a mesma coleção de amostras sem criar uma segunda lógica de monitoramento.
+Concluir a etapa 1 antes de fixar a arquitetura de overlay e coleta. Etapas 2 e 3 podem avançar em paralelo depois dos contratos; o editor depende do catálogo de métricas, e o overlay reutiliza os layouts do editor.
 
 Cada issue deve ter um responsável, entregáveis, critérios de aceite, dependências e evidências dos testes. Um agente implementa; outro revisa mudanças em interop, segurança, cálculo de diagnóstico e instalador.
